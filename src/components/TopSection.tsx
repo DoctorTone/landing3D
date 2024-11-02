@@ -9,16 +9,14 @@ const TopSection = () => {
       </Typography>
 
       <Typography variant="h6" sx={{ mt: 3 }}>
-        I'm passionate about all things 3D and the capabilities that 3D
-        technology can do for you and your business. I don't just build
-        pretty-looking websites and applications, I help accelerate your
-        business impact and recognition by showing off your products in a new
-        light, with the latest cutting-edge technology. You will be nearer to
-        your business goals, your customers will love it and your competitors
-        will be jealous!
+        The look and feel of your website is vital if you want to attract
+        customers and get them to beleive in your product or services. Some
+        webpages are more eye-catchig then others, although this does not
+        necessarily make them better.
       </Typography>
       <Typography variant="h6" sx={{ mt: 3 }} id="projects_page">
-        Here are a collection of projects that showcase some of my work.
+        Here are a collection of landing pages that show the types of effects
+        that you can have:
       </Typography>
     </Container>
   );

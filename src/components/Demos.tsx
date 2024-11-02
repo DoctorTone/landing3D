@@ -108,7 +108,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Img src="./images/consult.jpg" alt="projects" />
+              <Img src="./images/landing.jpg" alt="projects" />
             </a>
           </Grid>
         </Grid>
@@ -208,7 +208,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Img src="./images/consult.jpg" alt="projects" />
+              <Img src="./images/portfolio2.jpg" alt="projects" />
             </a>
           </Grid>
         </Grid>
