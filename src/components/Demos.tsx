@@ -100,12 +100,12 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <Img src="./images/consult.jpg" alt="projects" />
+              <Img src="./images/product.jpg" alt="projects" />
             </a>
           </Grid>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Product/Service Preview
+              Product Preview
             </Typography>
             <Typography
               className="paddingProjects"
@@ -113,27 +113,12 @@ const Projects = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                Imagine a virtual gallery where you can experience the art as if
-                you were relly there. Walk up to a painting to see the brush
-                strokes or wander around the many rooms of a gallery or
-                exhibition.
-              </p>
-              <p>
-                The pieces look stunning as they are 3D scans of the originals.
-                This opens up the possibility of artists being able to display
-                and sell their work from anywhere in the world. We can even
-                create copies of famous pieces, so that you could get a chance
-                to see a Da Vinci, a Goya or a Constable up close!
-              </p>
-              <p>
-                For the ultimate sense of realism, you can view the pieces in VR
-                - seeing the pieces through a headset takes the experience to
-                another level!
-              </p>
-              <p>
-                The ArtXR technology has now been used in real world art
-                galleries to showcase work like never before. Click on the image
-                for a video of the technlogy in action.
+                One of the most obvious ways to utilise 3D technology on your
+                site is to showcase products that you sell. Many such sites will
+                offer some configuration options but visitors don't have to go
+                straight to the selection process. Sometimes a landing page with
+                a realisitic model of one of your flagship products will help
+                entice the visitors to explore your site further.
               </p>
             </Typography>
           </Grid>
@@ -143,7 +128,7 @@ const Projects = () => {
         <Grid container spacing={2} sx={{ mt: 3, padding: "30px" }}>
           <Grid size={{ xs: 12, md: 6 }} sx={{ textAlign: "center" }}>
             <Typography variant="h3" sx={{ mb: 3 }}>
-              Full 3D Website
+              Complete Website
             </Typography>
             <Typography
               className="paddingProjects"
@@ -151,27 +136,20 @@ const Projects = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                Imagine a virtual gallery where you can experience the art as if
-                you were relly there. Walk up to a painting to see the brush
-                strokes or wander around the many rooms of a gallery or
-                exhibition.
+                3D websites don't have to stop with a landing page, they can be
+                extended to show a theme throughout a number of pages or across
+                your whole site. Ultimately the technology can be used to
+                construct your entire site in 3D.
               </p>
               <p>
-                The pieces look stunning as they are 3D scans of the originals.
-                This opens up the possibility of artists being able to display
-                and sell their work from anywhere in the world. We can even
-                create copies of famous pieces, so that you could get a chance
-                to see a Da Vinci, a Goya or a Constable up close!
+                This replaces the traditional UI elements with 3D versions, but
+                still keeps some 2D elements to aid in navigation, etc.
               </p>
               <p>
-                For the ultimate sense of realism, you can view the pieces in VR
-                - seeing the pieces through a headset takes the experience to
-                another level!
-              </p>
-              <p>
-                The ArtXR technology has now been used in real world art
-                galleries to showcase work like never before. Click on the image
-                for a video of the technlogy in action.
+                This has the possibility to transform the visit into a virtual
+                experience. This would be ideal for visitor attractions,
+                museums, historic sites or to take your customers on a guided
+                tour of your business.
               </p>
             </Typography>
           </Grid>
