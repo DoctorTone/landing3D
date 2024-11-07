@@ -40,12 +40,18 @@ const Projects = () => {
               <p>
                 A subtle 3D background can convey all sorts of information to
                 your visitors. It can show that you are using a novel, cutting
-                edge technology, it can show your brand in a more innovative way
-                - imagine that the background consisted of your company logo, or
+                edge technology or it can show your brand in a more innovative
+                way.
+              </p>
+              <p>
+                Imagine that the background consisted of your company logo or
                 models of some of your products. You could control the motion
                 with your mouse, or use physics and watch all the models bounce
-                off each other!
+                off each other! There are a lot of possibilities.
               </p>
+              <Typography sx={{ textAlign: "center" }}>
+                Click on the image to see a demo.
+              </Typography>
             </Typography>
           </Grid>
         </Grid>
@@ -70,9 +76,12 @@ const Projects = () => {
               <p>
                 There are also a lot of opportunities to customise the look and
                 feel, such as multiple lights, more complex animations,
-                additional elements in the scene, there are endless
-                possibilities.{" "}
+                additional elements in the scene, you are only limited by your
+                imagination.{" "}
               </p>
+              <Typography sx={{ textAlign: "center" }}>
+                Click on the image to see a demo.
+              </Typography>
             </Typography>
           </Grid>
           <Grid
@@ -114,12 +123,16 @@ const Projects = () => {
             >
               <p>
                 One of the most obvious ways to utilise 3D technology on your
-                site is to showcase products that you sell. Many such sites will
-                offer some configuration options but visitors don't have to go
-                straight to the selection process. Sometimes a landing page with
-                a realisitic model of one of your flagship products will help
-                entice the visitors to explore your site further.
+                site is to showcase your products. Many such sites will offer
+                configuration options where customers can choose and configure
+                the exact model before purchasing. However, visitors don't have
+                to go straight to the selection process. Quite often a landing
+                page with a realisitic model of one of your flagship products
+                will help entice the visitors to explore your site further.
               </p>
+              <Typography sx={{ textAlign: "center" }}>
+                Click on the image to see a demo.
+              </Typography>
             </Typography>
           </Grid>
         </Grid>
@@ -136,9 +149,9 @@ const Projects = () => {
               sx={{ textAlign: "justify" }}
             >
               <p>
-                3D websites don't have to stop with a landing page, they can be
-                extended to show a theme throughout a number of pages or across
-                your whole site. Ultimately the technology can be used to
+                3D websites don't have to be confined to a landing page, they
+                can be extended to show a theme throughout a number of pages or
+                across your whole site. Ultimately the technology can be used to
                 construct your entire site in 3D.
               </p>
               <p>
@@ -151,6 +164,9 @@ const Projects = () => {
                 museums, historic sites or to take your customers on a guided
                 tour of your business.
               </p>
+              <Typography sx={{ textAlign: "center" }}>
+                Click on the image to see a demo.
+              </Typography>
             </Typography>
           </Grid>
           <Grid
