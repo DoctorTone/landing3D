@@ -27,8 +27,9 @@ const TopSection = () => {
         or want to achieve.
       </Typography>
       <Typography variant="h6" sx={{ mt: 3 }} id="projects_page">
-        Here are a collection of landing pages that show the types of effects
-        that you can have:
+        Here are a collection of landing pages that show a small sample of what
+        is possible. If you would like to discuss what 3D technology can do for
+        your business then please get in touch.
       </Typography>
     </Container>
   );
