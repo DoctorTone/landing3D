@@ -21,7 +21,7 @@ const Projects = () => {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <a
-              href="https://www.youtube.com/watch?v=iM7GL6MC7M4&t=2s"
+              href="https://drt-software.com/animatedBackground/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -89,7 +89,7 @@ const Projects = () => {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <a
-              href="https://www.youtube.com/watch?v=iM7GL6MC7M4&t=2s"
+              href="https://drt-software.com/animatedLanding/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -105,7 +105,7 @@ const Projects = () => {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <a
-              href="https://www.youtube.com/watch?v=iM7GL6MC7M4&t=2s"
+              href="https://drt-software.com/product3D/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -174,7 +174,7 @@ const Projects = () => {
             sx={{ display: "flex", alignItems: "center" }}
           >
             <a
-              href="https://www.youtube.com/watch?v=iM7GL6MC7M4&t=2s"
+              href="https://drt-software.com/Portfolio/"
               target="_blank"
               rel="noreferrer noopener"
             >

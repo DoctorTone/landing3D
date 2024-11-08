@@ -1,13 +1,14 @@
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import Divider from "@mui/material/Divider";
 
 const TopSection = () => {
   return (
     <Container className="plus-jakarta-sans-main" sx={{ mt: 15, mb: 5 }}>
-      <Typography variant="h3" sx={{ mt: 3 }}>
+      <Typography variant="h3" sx={{ mt: 3, mb: 2 }}>
         3D Landing Pages
       </Typography>
-
+      <Divider variant="middle" sx={{ background: "yellow" }} />
       <Typography variant="h6" sx={{ mt: 3 }}>
         The look and feel of your website is vital if you want to attract
         customers and let them see what your business does and what it stands

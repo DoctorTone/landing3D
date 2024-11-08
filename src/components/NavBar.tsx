@@ -43,41 +43,12 @@ const NavBar = () => {
           }}
         >
           <Toolbar>
-            <Box component="div" sx={{ display: { xs: "flex", md: "none" } }}>
-              <Img src="./images/drtLogo.png" />
-              <IconButton
-                size="large"
-                aria-label="account of current user"
-                aria-controls="menu-appbar"
-                aria-haspopup="true"
-                onClick={handleOpenNavMenu}
-                color="warning"
-                sx={{ ml: 1 }}
-              >
-                <MenuIcon />
-              </IconButton>
-              <Menu
-                id="basic-menu"
-                anchorEl={anchorEl}
-                open={open}
-                onClose={handleClose}
-              >
-                <MenuItem
-                  component="a"
-                  href="mailto:enquiries@drt-software.com"
-                  onClick={handleClose}
-                  sx={{ color: "orange" }}
-                >
-                  enquiries@drt-software.com
-                </MenuItem>
-              </Menu>
-            </Box>
             <Box
               component="div"
               sx={{
                 paddingTop: "5px",
                 paddingBottom: "5px",
-                display: { xs: "none", md: "flex" },
+                display: { xs: "flex", md: "flex" },
                 flexGrow: 1,
                 alignItems: "center",
                 gap: "50px",
