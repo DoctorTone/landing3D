@@ -1,13 +1,8 @@
-import { useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import { styled } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Box, Container } from "@mui/material";
-import IconButton from "@mui/material/IconButton";
-import MenuIcon from "@mui/icons-material/Menu";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
 
 const Img = styled("img")({
   display: "block",
@@ -16,17 +11,6 @@ const Img = styled("img")({
 });
 
 const NavBar = () => {
-  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-
-  const handleOpenNavMenu = (event: React.MouseEvent<HTMLButtonElement>) => {
-    setAnchorEl(event.currentTarget);
-  };
-
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-  const open = Boolean(anchorEl);
-
   return (
     <Container>
       <Box component="div">
@@ -54,7 +38,13 @@ const NavBar = () => {
                 gap: "50px",
               }}
             >
-              <Img src="./images/drtLogo.png" />
+              <a
+                href="https://www.drt-software.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <Img src="./images/drtLogo.png" />
+              </a>
               <Box
                 component="div"
                 sx={{
