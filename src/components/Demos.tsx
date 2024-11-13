@@ -3,6 +3,7 @@ import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid2";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
+import { Button } from "@mui/material";
 
 const Img = styled("img")({
   display: "block",
@@ -49,9 +50,16 @@ const Projects = () => {
                 with your mouse, or use physics and watch all the models bounce
                 off each other! There are a lot of possibilities.
               </p>
-              <Typography sx={{ textAlign: "center" }}>
-                Click on the image to see a demo.
-              </Typography>
+              <Box sx={{ textAlign: "center" }}>
+                <Button
+                  href="https://drt-software.com/animatedBackground/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  variant="contained"
+                >
+                  See it in action
+                </Button>
+              </Box>
             </Typography>
           </Grid>
         </Grid>
@@ -79,9 +87,16 @@ const Projects = () => {
                 additional elements in the scene, you are only limited by your
                 imagination.{" "}
               </p>
-              <Typography sx={{ textAlign: "center" }}>
-                Click on the image to see a demo.
-              </Typography>
+              <Box sx={{ textAlign: "center" }}>
+                <Button
+                  href="https://drt-software.com/animatedLanding/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  variant="contained"
+                >
+                  See it in action
+                </Button>
+              </Box>
             </Typography>
           </Grid>
           <Grid
@@ -130,9 +145,16 @@ const Projects = () => {
                 page with a realisitic model of one of your flagship products
                 will help entice the visitors to explore your site further.
               </p>
-              <Typography sx={{ textAlign: "center" }}>
-                Click on the image to see a demo.
-              </Typography>
+              <Box sx={{ textAlign: "center" }}>
+                <Button
+                  href="https://drt-software.com/product3D/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  variant="contained"
+                >
+                  See it in action
+                </Button>
+              </Box>
             </Typography>
           </Grid>
         </Grid>
@@ -164,9 +186,16 @@ const Projects = () => {
                 museums, historic sites or to take your customers on a guided
                 tour of your business.
               </p>
-              <Typography sx={{ textAlign: "center" }}>
-                Click on the image to see a demo.
-              </Typography>
+              <Box sx={{ textAlign: "center" }}>
+                <Button
+                  href="https://drt-software.com/Portfolio/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  variant="contained"
+                >
+                  See it in action
+                </Button>
+              </Box>
             </Typography>
           </Grid>
           <Grid
