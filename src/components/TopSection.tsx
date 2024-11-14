@@ -8,28 +8,33 @@ const TopSection = () => {
       <Typography variant="h3" sx={{ mt: 3, mb: 2 }}>
         3D Landing Pages
       </Typography>
-      <Divider variant="middle" sx={{ background: "yellow" }} />
+      <Divider variant="middle" sx={{ background: "yellow", mb: 2 }} />
       <Typography variant="h6" sx={{ mt: 3 }}>
-        The look and feel of your website is vital if you want to attract
-        customers and let them see what your business does and what it stands
-        for. There are all sorts of eye-catching websites with animations,
-        scrolling effects, videos and pretty visuals. While these all look very
-        attractive, some of them rely on the visuals too much, may be difficult
-        to navigate and generally do not get your company message across, which
-        defeats the whole point of having a website in the first place.
-      </Typography>
-      <Typography variant="h6" sx={{ mt: 3 }}>
-        3D pages can be very effective at increasing engagement and showing your
-        company in a different light. This can be achieved in a number of ways
-        from subtle animations to making the whole site a 3D interactive
-        experience. In each case it shows that your company is embracing new
-        technology and giving potential new customers an insight at what you do
-        or want to achieve.
-      </Typography>
-      <Typography variant="h6" sx={{ mt: 3 }} id="projects_page">
-        Here are a collection of landing pages that show a small sample of what
-        is possible. If you would like to discuss what 3D technology can do for
-        your business then please get in touch.
+        <p>
+          If you are a startup company or a solopreneur then you'll know how
+          important the first impression of your business is.
+        </p>{" "}
+        <p>
+          You'll need a website that not only looks good but gets your message
+          across. You don't want to look the same as everybody else, you need
+          visitors to hang around and become more engaged.
+        </p>{" "}
+        <p>
+          Even worse - you may already have a website that's driving visitors
+          away! You may offer wonderful products and services, but no one is
+          getting to see them as your site is too complex or just plain boring.
+        </p>
+        <p>
+          This is where the power of 3D can really help. Typical websites are
+          flat, 2D spaces, but we live in a 3D world and the same can be true of
+          your website.
+        </p>
+        <p>
+          3D technology can look both very impressive and informative - it can
+          offer a novel way to interact whilst also showing a glimpse of what
+          you do.
+        </p>
+        <p>Here are just a few examples of what is possible:</p>
       </Typography>
     </Container>
   );
