@@ -20,6 +20,10 @@ const TopSection = () => {
           visitors to hang around and become more engaged.
         </p>{" "}
         <p>
+          Compelling and engaging websites convert more visitors to customers
+          and this means that your business can start to realise it's potential.
+        </p>
+        <p>
           Even worse - you may already have a website that's driving visitors
           away! You may offer wonderful products and services, but no one is
           getting to see them as your site is too complex or just plain boring.
